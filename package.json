@@ -21,6 +21,7 @@
   "homepage": "https://github.com/stackOverMind/wilddogio-client",
   "dependencies": {
     "engine.io-client": "^1.4.3"
+
   },
   "devDependencies": {
     "blob": "0.0.2",
