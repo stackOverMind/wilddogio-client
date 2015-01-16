@@ -8,7 +8,9 @@
 
 ## wilddogio API
 
-### new WilddogIO(baseUrl)
+###WilddogIO
+
+#### new WilddogIO(baseUrl)
 初始化一个Wilddog客户端
 ###### arguments
 * baseUrl 
@@ -80,4 +82,106 @@ WilddogIO object ref
 ###### arguments
 
 ###### return
+
+
+
+#### on(type,[callback])
+
+###### arguments
+* type
+.. value
+.. childAdded
+.. childChanged
+.. childRemoved
+.. childMoved
+
+* callback:function(dataSnapShot)
+
+###### return
+
+#### off([type],[callback])
+###### arguments
+* type
+.. value
+.. childAdded
+.. childChanged
+.. childRemoved
+.. childMoved
+
+* callback:function(dataSnapShot)
+
+###### return
+
+#### once(type,[callback])
+
+###### arguments
+
+###### return 
+
+
+###DataSnapShot
+
+#### val()
+
+###### arguments
+
+###### return 
+
+
+#### child()
+
+###### arguments
+
+###### return 
+
+
+#### parent()
+
+###### arguments
+
+###### return 
+
+
+#### forEach(action)
+
+###### arguments
+
+###### return 
+
+
+#### hasChild([key])
+
+###### arguments
+
+###### return 
+
+
+#### key()
+
+###### arguments
+
+###### return 
+
+
+#### numChildren()
+
+###### arguments
+
+###### return 
+
+
+#### ref()
+
+###### arguments
+
+###### return 
+
+
+
+
+
+
+
+
+
 
