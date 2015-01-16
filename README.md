@@ -17,30 +17,34 @@
 WilddogIO object ref
 
 #### child(key)
-
+子节点
 ###### arguments
-
+* key 子节点名
 ###### return
+* 子节点的ref
 
 #### parent()
 
 ######arguments
 
 ######return
-
+* 父节点的ref
 #### key()
+
 ###### arguments
 
 ###### return
+* 当前节点的key
 
 #### url()
 
 ###### arguments
 
 ###### return
+* 当前节点的url
 
 #### set(value,[oncomplete])
-
+* 设置 value
 ###### arguments
 
 ###### return 
