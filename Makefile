@@ -1,7 +1,7 @@
 build: wilddogio.js
 
-wilddogio.js: lib/*.js package.json
-	@./support/browserify.sh > wilddogio.js
+wilddogio.js: index.js
+	@browserify index.js > wilddogio.js
 
 
 .PHONY: test build
