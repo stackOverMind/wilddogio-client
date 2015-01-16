@@ -1,7 +1,5 @@
 
 
-var Test=function(){
-    alert("aaa");
+module.exports=function(){
+    console.log('hello!')
     }
-Test();
-module.exports=Test;
